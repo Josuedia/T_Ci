@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #cffffd;
 }
 
 h1 {
@@ -10,14 +10,17 @@ h1 {
 .metodo-cifrado {
     padding: 10px 20px;
     margin: 10px;
-    background-color: #3498db;
-    color: white;
+    background-color: #68c2ff;
+    color: #000000;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .metodo-cifrado:hover {
-    background-color: #2980b9;
+    background-color: #68c2ff;
+    border-radius: 5px;
+    color: #000000;
 }
 
 .container {
@@ -65,7 +68,6 @@ textarea {
 #viggennere{
     display: none;
 }
-
 
 input[type="range"] {
     width: 100%;
